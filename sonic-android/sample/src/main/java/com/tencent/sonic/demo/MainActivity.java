@@ -53,6 +53,8 @@ public class MainActivity extends Activity {
     private static final int PERMISSION_REQUEST_CODE_STORAGE = 1;
 
     private static final String DEMO_URL = "http://mc.vip.qq.com/demo/indexv3";
+//    private static final String DEMO_URL = "https://m.2dfire.com/";
+//    private static final String DEMO_URL = "https://www.douban.com/location/hangzhou/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -161,4 +163,14 @@ public class MainActivity extends Activity {
         startActivityForResult(intent, -1);
     }
 
+    public void tohTTP(View view) {
+        Intent intent = new Intent(this, HttpActivityNew.class);
+        startActivity(intent);
+
+    }
+
+    public void tohTTP2D(View view) {
+        Intent intent = new Intent(this, HttpActivity.class);
+        startActivity(intent);
+    }
 }

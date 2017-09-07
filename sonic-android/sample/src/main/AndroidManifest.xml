@@ -19,6 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".demo.BrowserActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".demo.HttpActivityNew" android:screenOrientation="portrait"/>
+        <activity android:name=".demo.HttpActivity" android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
